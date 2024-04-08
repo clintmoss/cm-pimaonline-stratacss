@@ -1,7 +1,4 @@
-import { m } from "./variables";
 import { customElementAria } from "../config";
-console.log(m);
-
 
 // Function to add aria label to custom elements
 customElementAria.forEach((customElement: { customHtmlTag: string, ariaProp: string, ariaValue: string }) => {
